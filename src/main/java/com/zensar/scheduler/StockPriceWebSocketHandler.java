@@ -173,6 +173,7 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 			timer = null;
 		}
 	}
+	
 
 	@Override
 	public boolean supportsPartialMessages() {
