@@ -12,6 +12,8 @@ import java.util.TimerTask;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.CloseStatus;
@@ -20,9 +22,9 @@ import org.springframework.web.socket.WebSocketHandler;
 import org.springframework.web.socket.WebSocketMessage;
 import org.springframework.web.socket.WebSocketSession;
 
+import com.zensar.entity.OrdersTable;
 import com.zensar.entity.StockPrice;
 import com.zensar.entity.StockQueue;
-import com.zensar.entity.OrdersTable;
 
 @Component
 @ComponentScan("com.zensar.stock")
@@ -31,6 +33,7 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 	private Timer timer;
 	private final StockQueue stockQueuest;
 	private List<OrdersTable> orderTableList;
+	private static final Logger logger = LoggerFactory.getLogger(StockPriceWebSocketHandler.class);
 
 	public StockPriceWebSocketHandler(StockQueue stockQueues) {
 		this.stockQueuest = stockQueues;
@@ -80,17 +83,17 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 					}
 				}
 			}
-		}, 0, 4000);
+		}, 0, 5000);
 	}
 
 	private Queue<StockPrice> generateAppleStockQueue(String stockName) {
 		Random random = new Random();
-		int askPrice = random.nextInt(31) + 30;
-		int bidPrice = random.nextInt(askPrice - 29) + 30;
-		int askPrice2 = random.nextInt(31) + 30;
-		int bidPrice2 = random.nextInt(askPrice - 29) + 30;
-		int askPrice3 = random.nextInt(31) + 30;
-		int bidPrice3 = random.nextInt(askPrice - 29) + 30;
+		int bidPrice = random.nextInt(41) + 50;
+		int askPrice = random.nextInt(bidPrice - 29) + 50;
+		int bidPrice2 = random.nextInt(41) + 50;
+		int askPrice2 = random.nextInt(bidPrice - 29) + 50;
+		int bidPrice3 = random.nextInt(41) + 50;
+		int askPrice3 = random.nextInt(bidPrice - 29) + 50;
 
 		Queue<StockPrice> stockQueue = new LinkedList<>();
 		stockQueue.add(new StockPrice(1, stockName, askPrice, bidPrice));
@@ -102,12 +105,12 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 
 	private Queue<StockPrice> generateIBMStockQueue(String stockName) {
 		Random random = new Random();
-		int askPrice4 = random.nextInt(31) + 30;
-		int bidPrice4 = random.nextInt(askPrice4 - 29) + 30;
-		int askPrice5 = random.nextInt(31) + 30;
-		int bidPrice5 = random.nextInt(askPrice4 - 29) + 30;
-		int askPrice6 = random.nextInt(31) + 30;
-		int bidPrice6 = random.nextInt(askPrice4 - 29) + 30;
+		int bidPrice4 = random.nextInt(31) + 30;
+		int askPrice4 = random.nextInt(bidPrice4 - 29) + 30;
+		int bidPrice5 = random.nextInt(31) + 30;
+		int askPrice5 = random.nextInt(bidPrice4 - 29) + 30;
+		int bidPrice6 = random.nextInt(31) + 30;
+		int askPrice6 = random.nextInt(bidPrice4 - 29) + 30;
 
 		Queue<StockPrice> stockQueue = new LinkedList<>();
 		stockQueue.add(new StockPrice(2, stockName, askPrice4, bidPrice4));
@@ -119,12 +122,12 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 
 	private Queue<StockPrice> generateZensarStockQueue(String stockName) {
 		Random random = new Random();
-		int askPrice7 = random.nextInt(31) + 30;
-		int bidPrice7 = random.nextInt(askPrice7 - 29) + 30;
-		int askPrice8 = random.nextInt(31) + 30;
-		int bidPrice8 = random.nextInt(askPrice7 - 29) + 30;
-		int askPrice9 = random.nextInt(31) + 30;
-		int bidPrice9 = random.nextInt(askPrice7 - 29) + 30;
+		int bidPrice7 = random.nextInt(31) + 40;
+		int askPrice7 = random.nextInt(bidPrice7 - 29) + 40;
+		int bidPrice8 = random.nextInt(31) + 40;
+		int askPrice8 = random.nextInt(bidPrice7 - 29) + 40;
+		int bidPrice9 = random.nextInt(31) + 40;
+		int askPrice9 = random.nextInt(bidPrice7 - 29) + 40;
 
 		Queue<StockPrice> stockQueue = new LinkedList<>();
 		stockQueue.add(new StockPrice(3, stockName, askPrice7, bidPrice7));
@@ -138,14 +141,14 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 		StockPrice stock = stockQueue.peek();
 		int askPrice = stock.getAskPrice();
 		int bidPrice = stock.getBidPrice();
-		if (askPrice == bidPrice) {
+		if (askPrice <= bidPrice) {
 			OrdersTable orderTable = new OrdersTable(stock.getStockName(), bidPrice, askPrice, LocalDateTime.now());
 			orderTableList.add(orderTable);
 //            for (OrdersTable order : orderTableList) {
 //                System.out.println(order);
 //            }
-			System.out.println(stock.getStockName() + ":" + " Bid Price: " + bidPrice + " Ask Price: " + askPrice
-					+ " Date & Time: " + LocalDateTime.now());
+			logger.info("The " + stock.getStockName() + " got ordered with a bidPrice of " + bidPrice
+					+ " and askPrice of " + askPrice);
 
 		}
 	}
@@ -153,7 +156,7 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 	@Override
 	public void afterConnectionEstablished(WebSocketSession session) throws Exception {
 		this.session = session;
-		handleTextMessages("apple", "ibm", "zensar");
+		handleTextMessages("Apple", "IBM", "Zensar");
 	}
 
 	@Override
@@ -173,7 +176,6 @@ public class StockPriceWebSocketHandler implements WebSocketHandler {
 			timer = null;
 		}
 	}
-	
 
 	@Override
 	public boolean supportsPartialMessages() {

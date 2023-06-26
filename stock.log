@@ -1,15 +1,298 @@
-2023-06-24T00:06:08.623+05:30  INFO 24968 --- [main] com.zensar.StockAppApplication           : Starting StockAppApplication using Java 17.0.3 with PID 24968 (C:\Users\sn69438\git\AES-freshres-Back-End-Technical-Blogging\StockApp\target\classes started by SN69438 in C:\Users\sn69438\git\AES-freshres-Back-End-Technical-Blogging\StockApp)
-2023-06-24T00:06:08.627+05:30  INFO 24968 --- [main] com.zensar.StockAppApplication           : No active profile set, falling back to 1 default profile: "default"
-2023-06-24T00:06:09.421+05:30  INFO 24968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
-2023-06-24T00:06:09.432+05:30  INFO 24968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-06-24T00:06:09.432+05:30  INFO 24968 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-06-24T00:06:09.540+05:30  INFO 24968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-06-24T00:06:09.542+05:30  INFO 24968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 874 ms
-2023-06-24T00:06:09.929+05:30  INFO 24968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
-2023-06-24T00:06:09.940+05:30  INFO 24968 --- [main] com.zensar.StockAppApplication           : Started StockAppApplication in 1.716 seconds (process running for 2.554)
-2023-06-24T00:07:57.145+05:30  INFO 24968 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-06-24T00:07:57.146+05:30  INFO 24968 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-06-24T00:07:57.147+05:30  INFO 24968 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-06-24T00:18:31.823+05:30  INFO 24968 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2023-06-24T00:18:31.859+05:30  INFO 24968 --- [RMI TCP Connection(21)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-06-24T00:18:31.863+05:30  INFO 24968 --- [RMI TCP Connection(21)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-26T11:05:26.986+05:30  INFO 25960 --- [main] com.zensar.StockAppApplication           : Starting StockAppApplication using Java 17.0.3 with PID 25960 (D:\StockApp\StockApp\target\classes started by SV69497 in D:\StockApp\StockApp)
+2023-06-26T11:05:26.990+05:30  INFO 25960 --- [main] com.zensar.StockAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-06-26T11:05:27.996+05:30  INFO 25960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-06-26T11:05:28.010+05:30  INFO 25960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-26T11:05:28.011+05:30  INFO 25960 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-26T11:05:28.118+05:30  INFO 25960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-26T11:05:28.120+05:30  INFO 25960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1065 ms
+2023-06-26T11:05:28.571+05:30  INFO 25960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-06-26T11:05:28.582+05:30  INFO 25960 --- [main] com.zensar.StockAppApplication           : Started StockAppApplication in 2.213 seconds (process running for 3.456)
+2023-06-26T11:05:43.452+05:30  INFO 25960 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-26T11:05:43.478+05:30  INFO 25960 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-26T11:43:14.855+05:30  INFO 24692 --- [main] com.zensar.StockAppApplication           : Starting StockAppApplication using Java 17.0.3 with PID 24692 (D:\StockApp\StockApp\target\classes started by SV69497 in D:\StockApp\StockApp)
+2023-06-26T11:43:14.860+05:30  INFO 24692 --- [main] com.zensar.StockAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-06-26T11:43:16.003+05:30  INFO 24692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-06-26T11:43:16.016+05:30  INFO 24692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-26T11:43:16.017+05:30  INFO 24692 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-26T11:43:16.137+05:30  INFO 24692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-26T11:43:16.139+05:30  INFO 24692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2023-06-26T11:43:16.573+05:30  INFO 24692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-06-26T11:43:16.584+05:30  INFO 24692 --- [main] com.zensar.StockAppApplication           : Started StockAppApplication in 2.282 seconds (process running for 3.508)
+2023-06-26T11:50:39.220+05:30  INFO 24692 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-26T11:50:39.221+05:30  INFO 24692 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-26T11:50:39.222+05:30  INFO 24692 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-26T21:11:14.370+05:30  INFO 14152 --- [main] com.zensar.StockAppApplication           : Starting StockAppApplication using Java 17.0.3 with PID 14152 (D:\StockApp\StockApp\target\classes started by SV69497 in D:\StockApp\StockApp)
+2023-06-26T21:11:14.374+05:30  INFO 14152 --- [main] com.zensar.StockAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-06-26T21:11:15.395+05:30  INFO 14152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-06-26T21:11:15.409+05:30  INFO 14152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-26T21:11:15.409+05:30  INFO 14152 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-26T21:11:15.548+05:30  INFO 14152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-26T21:11:15.549+05:30  INFO 14152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1130 ms
+2023-06-26T21:11:15.938+05:30  INFO 14152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-06-26T21:11:15.947+05:30  INFO 14152 --- [main] com.zensar.StockAppApplication           : Started StockAppApplication in 2.113 seconds (process running for 7.581)
+2023-06-26T21:11:52.845+05:30  INFO 14152 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-26T21:11:52.846+05:30  INFO 14152 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-26T21:11:52.849+05:30  INFO 14152 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-26T21:45:56.535+05:30  INFO 14152 --- [RMI TCP Connection(44)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-26T21:45:56.659+05:30  INFO 14152 --- [RMI TCP Connection(44)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-26T21:45:56.669+05:30  INFO 14152 --- [RMI TCP Connection(44)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-26T21:47:15.000+05:30  INFO 13568 --- [main] com.zensar.StockAppApplication           : Starting StockAppApplication using Java 17.0.3 with PID 13568 (D:\StockApp\StockApp\target\classes started by SV69497 in D:\StockApp\StockApp)
+2023-06-26T21:47:15.003+05:30  INFO 13568 --- [main] com.zensar.StockAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-06-26T21:47:16.141+05:30  INFO 13568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-06-26T21:47:16.157+05:30  INFO 13568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-26T21:47:16.158+05:30  INFO 13568 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-26T21:47:16.292+05:30  INFO 13568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-26T21:47:16.293+05:30  INFO 13568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1228 ms
+2023-06-26T21:47:16.765+05:30  INFO 13568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-06-26T21:47:16.775+05:30  INFO 13568 --- [main] com.zensar.StockAppApplication           : Started StockAppApplication in 2.351 seconds (process running for 3.705)
+2023-06-26T21:47:43.995+05:30  INFO 13568 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-26T21:47:43.997+05:30  INFO 13568 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-26T21:47:44.003+05:30  INFO 13568 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-06-26T21:47:44.226+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 74 and askPrice of 69
+2023-06-26T21:47:44.228+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 59 and askPrice of 41
+2023-06-26T21:47:44.231+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 58 and askPrice of 51
+2023-06-26T21:47:49.228+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 42 and askPrice of 40
+2023-06-26T21:47:54.226+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 46 and askPrice of 31
+2023-06-26T21:47:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 55 and askPrice of 50
+2023-06-26T21:47:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 50 and askPrice of 48
+2023-06-26T21:47:59.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 47
+2023-06-26T21:48:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 46
+2023-06-26T21:48:09.236+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 84 and askPrice of 50
+2023-06-26T21:48:09.237+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 33 and askPrice of 32
+2023-06-26T21:48:09.237+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 47 and askPrice of 45
+2023-06-26T21:48:14.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 35 and askPrice of 33
+2023-06-26T21:48:14.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 61 and askPrice of 58
+2023-06-26T21:48:19.228+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 31 and askPrice of 30
+2023-06-26T21:48:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 78 and askPrice of 54
+2023-06-26T21:48:24.226+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 53 and askPrice of 45
+2023-06-26T21:48:24.230+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 55 and askPrice of 43
+2023-06-26T21:48:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 48 and askPrice of 41
+2023-06-26T21:48:34.230+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 71 and askPrice of 53
+2023-06-26T21:48:34.230+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 34
+2023-06-26T21:48:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 75 and askPrice of 65
+2023-06-26T21:48:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 45 and askPrice of 45
+2023-06-26T21:48:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 46 and askPrice of 43
+2023-06-26T21:48:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 56 and askPrice of 35
+2023-06-26T21:48:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 65 and askPrice of 46
+2023-06-26T21:48:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 42 and askPrice of 41
+2023-06-26T21:48:49.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 68 and askPrice of 46
+2023-06-26T21:48:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 64 and askPrice of 53
+2023-06-26T21:48:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 34
+2023-06-26T21:48:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 57 and askPrice of 53
+2023-06-26T21:48:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 31 and askPrice of 30
+2023-06-26T21:49:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 64 and askPrice of 51
+2023-06-26T21:49:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 58 and askPrice of 41
+2023-06-26T21:49:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 58
+2023-06-26T21:49:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 77 and askPrice of 52
+2023-06-26T21:49:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 38 and askPrice of 34
+2023-06-26T21:49:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 44 and askPrice of 42
+2023-06-26T21:49:14.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 85 and askPrice of 59
+2023-06-26T21:49:14.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 50 and askPrice of 43
+2023-06-26T21:49:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 62 and askPrice of 57
+2023-06-26T21:49:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 39 and askPrice of 35
+2023-06-26T21:49:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 31 and askPrice of 31
+2023-06-26T21:49:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 52 and askPrice of 44
+2023-06-26T21:49:29.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 60 and askPrice of 34
+2023-06-26T21:49:29.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 63 and askPrice of 48
+2023-06-26T21:49:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 52 and askPrice of 38
+2023-06-26T21:49:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 41
+2023-06-26T21:49:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 56 and askPrice of 39
+2023-06-26T21:49:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 70 and askPrice of 62
+2023-06-26T21:49:44.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 37 and askPrice of 32
+2023-06-26T21:49:44.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 56 and askPrice of 44
+2023-06-26T21:49:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 72 and askPrice of 68
+2023-06-26T21:49:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 33 and askPrice of 32
+2023-06-26T21:49:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 52 and askPrice of 41
+2023-06-26T21:49:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 47 and askPrice of 35
+2023-06-26T21:49:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 54 and askPrice of 44
+2023-06-26T21:49:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 66 and askPrice of 54
+2023-06-26T21:49:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 52 and askPrice of 30
+2023-06-26T21:50:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 48 and askPrice of 37
+2023-06-26T21:50:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 56 and askPrice of 35
+2023-06-26T21:50:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 59 and askPrice of 50
+2023-06-26T21:50:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 35 and askPrice of 35
+2023-06-26T21:50:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 43 and askPrice of 39
+2023-06-26T21:50:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 63 and askPrice of 46
+2023-06-26T21:50:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 55 and askPrice of 43
+2023-06-26T21:50:29.231+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 71 and askPrice of 56
+2023-06-26T21:50:29.231+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 48 and askPrice of 35
+2023-06-26T21:50:34.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 46 and askPrice of 39
+2023-06-26T21:50:34.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 50
+2023-06-26T21:50:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 65 and askPrice of 65
+2023-06-26T21:50:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 34
+2023-06-26T21:50:44.237+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 46 and askPrice of 37
+2023-06-26T21:50:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 75 and askPrice of 53
+2023-06-26T21:50:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 39
+2023-06-26T21:50:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 45 and askPrice of 45
+2023-06-26T21:50:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 43 and askPrice of 43
+2023-06-26T21:50:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 68 and askPrice of 43
+2023-06-26T21:50:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 88 and askPrice of 80
+2023-06-26T21:50:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 33
+2023-06-26T21:50:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 50 and askPrice of 46
+2023-06-26T21:51:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 37 and askPrice of 35
+2023-06-26T21:51:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 64 and askPrice of 57
+2023-06-26T21:51:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 51 and askPrice of 51
+2023-06-26T21:51:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 35 and askPrice of 35
+2023-06-26T21:51:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 59 and askPrice of 52
+2023-06-26T21:51:14.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 55 and askPrice of 45
+2023-06-26T21:51:14.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 49 and askPrice of 40
+2023-06-26T21:51:19.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 88 and askPrice of 63
+2023-06-26T21:51:19.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 33
+2023-06-26T21:51:19.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 66 and askPrice of 41
+2023-06-26T21:51:24.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 88 and askPrice of 68
+2023-06-26T21:51:24.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 50 and askPrice of 34
+2023-06-26T21:51:24.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 56 and askPrice of 45
+2023-06-26T21:51:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 57 and askPrice of 57
+2023-06-26T21:51:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 67 and askPrice of 50
+2023-06-26T21:51:34.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 39 and askPrice of 38
+2023-06-26T21:51:34.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 50 and askPrice of 42
+2023-06-26T21:51:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 76 and askPrice of 57
+2023-06-26T21:51:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 31 and askPrice of 30
+2023-06-26T21:51:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 57 and askPrice of 42
+2023-06-26T21:51:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 84 and askPrice of 58
+2023-06-26T21:51:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 41 and askPrice of 41
+2023-06-26T21:51:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 60 and askPrice of 42
+2023-06-26T21:51:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 58 and askPrice of 52
+2023-06-26T21:51:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 65 and askPrice of 65
+2023-06-26T21:51:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 39 and askPrice of 33
+2023-06-26T21:51:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 56 and askPrice of 41
+2023-06-26T21:51:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 43 and askPrice of 41
+2023-06-26T21:51:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 47
+2023-06-26T21:52:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 43 and askPrice of 38
+2023-06-26T21:52:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 61 and askPrice of 56
+2023-06-26T21:52:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 56 and askPrice of 52
+2023-06-26T21:52:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 34 and askPrice of 30
+2023-06-26T21:52:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 45
+2023-06-26T21:52:14.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 43 and askPrice of 32
+2023-06-26T21:52:19.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 49 and askPrice of 43
+2023-06-26T21:52:24.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 76 and askPrice of 55
+2023-06-26T21:52:24.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 54 and askPrice of 40
+2023-06-26T21:52:29.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 31 and askPrice of 30
+2023-06-26T21:52:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 36
+2023-06-26T21:52:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 69 and askPrice of 65
+2023-06-26T21:52:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 42
+2023-06-26T21:52:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 41 and askPrice of 33
+2023-06-26T21:52:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 65
+2023-06-26T21:52:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 88 and askPrice of 76
+2023-06-26T21:52:49.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 59 and askPrice of 54
+2023-06-26T21:52:49.226+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 63 and askPrice of 55
+2023-06-26T21:52:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 41 and askPrice of 30
+2023-06-26T21:52:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 72 and askPrice of 70
+2023-06-26T21:52:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 53 and askPrice of 38
+2023-06-26T21:53:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 39 and askPrice of 36
+2023-06-26T21:53:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 52
+2023-06-26T21:53:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 76 and askPrice of 52
+2023-06-26T21:53:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 47 and askPrice of 34
+2023-06-26T21:53:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 86 and askPrice of 50
+2023-06-26T21:53:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 30 and askPrice of 30
+2023-06-26T21:53:19.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 39 and askPrice of 32
+2023-06-26T21:53:19.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 58 and askPrice of 47
+2023-06-26T21:53:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 80 and askPrice of 62
+2023-06-26T21:53:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 34 and askPrice of 33
+2023-06-26T21:53:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 40 and askPrice of 37
+2023-06-26T21:53:29.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 66 and askPrice of 45
+2023-06-26T21:53:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 37 and askPrice of 37
+2023-06-26T21:53:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 55
+2023-06-26T21:53:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 73 and askPrice of 54
+2023-06-26T21:53:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 52 and askPrice of 30
+2023-06-26T21:53:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 63
+2023-06-26T21:53:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 53 and askPrice of 51
+2023-06-26T21:53:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 57 and askPrice of 52
+2023-06-26T21:53:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 58 and askPrice of 41
+2023-06-26T21:53:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 81 and askPrice of 61
+2023-06-26T21:53:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 45 and askPrice of 40
+2023-06-26T21:53:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 56 and askPrice of 54
+2023-06-26T21:53:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 89 and askPrice of 54
+2023-06-26T21:53:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 45 and askPrice of 42
+2023-06-26T21:53:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 52
+2023-06-26T21:53:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 50 and askPrice of 30
+2023-06-26T21:54:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 35 and askPrice of 35
+2023-06-26T21:54:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 86 and askPrice of 79
+2023-06-26T21:54:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 60 and askPrice of 50
+2023-06-26T21:54:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 52 and askPrice of 40
+2023-06-26T21:54:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 32
+2023-06-26T21:54:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 49 and askPrice of 48
+2023-06-26T21:54:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 89 and askPrice of 52
+2023-06-26T21:54:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 32
+2023-06-26T21:54:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 37 and askPrice of 37
+2023-06-26T21:54:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 41 and askPrice of 40
+2023-06-26T21:54:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 48 and askPrice of 38
+2023-06-26T21:54:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 35 and askPrice of 33
+2023-06-26T21:54:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 64 and askPrice of 60
+2023-06-26T21:54:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 46 and askPrice of 38
+2023-06-26T21:54:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 57 and askPrice of 52
+2023-06-26T21:54:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 36 and askPrice of 36
+2023-06-26T21:54:44.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 69 and askPrice of 62
+2023-06-26T21:54:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 71 and askPrice of 59
+2023-06-26T21:54:49.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 49 and askPrice of 33
+2023-06-26T21:54:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 54 and askPrice of 49
+2023-06-26T21:54:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 63 and askPrice of 55
+2023-06-26T21:54:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 54 and askPrice of 51
+2023-06-26T21:54:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 40 and askPrice of 40
+2023-06-26T21:54:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 66 and askPrice of 63
+2023-06-26T21:55:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 85 and askPrice of 72
+2023-06-26T21:55:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 57 and askPrice of 52
+2023-06-26T21:55:04.225+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 52 and askPrice of 45
+2023-06-26T21:55:09.232+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 34 and askPrice of 34
+2023-06-26T21:55:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 50 and askPrice of 47
+2023-06-26T21:55:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 50 and askPrice of 41
+2023-06-26T21:55:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 42 and askPrice of 32
+2023-06-26T21:55:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 53 and askPrice of 44
+2023-06-26T21:55:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 33 and askPrice of 31
+2023-06-26T21:55:29.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 56 and askPrice of 38
+2023-06-26T21:55:34.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 73 and askPrice of 53
+2023-06-26T21:55:34.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 47 and askPrice of 31
+2023-06-26T21:55:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 47 and askPrice of 36
+2023-06-26T21:55:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 90 and askPrice of 53
+2023-06-26T21:55:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 38 and askPrice of 36
+2023-06-26T21:55:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 75 and askPrice of 64
+2023-06-26T21:55:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 36 and askPrice of 33
+2023-06-26T21:55:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 87 and askPrice of 72
+2023-06-26T21:55:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 58 and askPrice of 45
+2023-06-26T21:55:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 42 and askPrice of 42
+2023-06-26T21:55:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 59 and askPrice of 51
+2023-06-26T21:55:59.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 57 and askPrice of 55
+2023-06-26T21:56:04.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 47
+2023-06-26T21:56:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 77 and askPrice of 65
+2023-06-26T21:56:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 30 and askPrice of 30
+2023-06-26T21:56:09.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 67
+2023-06-26T21:56:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 39 and askPrice of 31
+2023-06-26T21:56:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 56 and askPrice of 53
+2023-06-26T21:56:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 60 and askPrice of 43
+2023-06-26T21:56:19.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 64 and askPrice of 61
+2023-06-26T21:56:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 54 and askPrice of 51
+2023-06-26T21:56:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 47 and askPrice of 40
+2023-06-26T21:56:24.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 60 and askPrice of 56
+2023-06-26T21:56:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 37 and askPrice of 32
+2023-06-26T21:56:29.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 49 and askPrice of 42
+2023-06-26T21:56:34.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 51 and askPrice of 32
+2023-06-26T21:56:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 53 and askPrice of 49
+2023-06-26T21:56:39.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 58
+2023-06-26T21:56:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 59 and askPrice of 54
+2023-06-26T21:56:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 57 and askPrice of 43
+2023-06-26T21:56:49.233+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 45 and askPrice of 43
+2023-06-26T21:56:54.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 88 and askPrice of 54
+2023-06-26T21:56:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 60 and askPrice of 47
+2023-06-26T21:56:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 60 and askPrice of 51
+2023-06-26T21:56:59.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 62 and askPrice of 48
+2023-06-26T21:57:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 56 and askPrice of 50
+2023-06-26T21:57:04.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 45 and askPrice of 41
+2023-06-26T21:57:09.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 49 and askPrice of 32
+2023-06-26T21:57:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 84 and askPrice of 65
+2023-06-26T21:57:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 48 and askPrice of 41
+2023-06-26T21:57:14.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 70 and askPrice of 48
+2023-06-26T21:57:19.229+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 49 and askPrice of 37
+2023-06-26T21:57:24.236+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 40 and askPrice of 34
+2023-06-26T21:57:29.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 40 and askPrice of 38
+2023-06-26T21:57:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 43
+2023-06-26T21:57:34.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 48 and askPrice of 42
+2023-06-26T21:57:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 41 and askPrice of 32
+2023-06-26T21:57:39.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 50 and askPrice of 49
+2023-06-26T21:57:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Apple got ordered with a bidPrice of 87 and askPrice of 61
+2023-06-26T21:57:44.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 58 and askPrice of 39
+2023-06-26T21:57:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 47 and askPrice of 36
+2023-06-26T21:57:49.223+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The Zensar got ordered with a bidPrice of 67 and askPrice of 42
+2023-06-26T21:57:54.224+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 44 and askPrice of 40
+2023-06-26T21:57:59.233+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 49 and askPrice of 47
+2023-06-26T21:58:04.228+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 38 and askPrice of 30
+2023-06-26T21:58:09.228+05:30  INFO 13568 --- [Timer-0] c.z.s.StockPriceWebSocketHandler         : The IBM got ordered with a bidPrice of 33 and askPrice of 33
